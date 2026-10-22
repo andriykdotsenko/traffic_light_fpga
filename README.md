@@ -67,4 +67,4 @@ Buttons are active-low: one side goes to GND and the pin uses the internal weak 
 
  All checks pass (`ALL TESTS PASSED`).
 
- ![Simulation waveform](Simulation waveform.png)
+ ![Simulation waveform](testbench/Simulation waveform.png)
