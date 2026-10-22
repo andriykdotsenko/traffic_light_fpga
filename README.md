@@ -2,7 +2,11 @@
 
 Traffic light controller written in SystemVerilog and running on an Altera MAX II (EPM570) CPLD board, with two 7-segment countdown displays and two push buttons.
 
-<!-- Тут встав відео: перетягни .mp4 у редактор -->
+
+
+https://github.com/user-attachments/assets/20928206-9089-47d3-80a3-71c815475f70
+
+
 
  Features
 
