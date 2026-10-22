@@ -58,7 +58,7 @@ Buttons are active-low: one side goes to GND and the pin uses the internal weak 
 
  Verification
 
- `testbench/traffic_fsm.sv` is a self-checking testbench for `traffic_fsm` (Icarus Verilog 12, EDA Playground). It checks:
+ [`testbench/traffic_fsm.sv`](https://github.com/andriykdotsenko/traffic_light_fpga/blob/ac4e63be177204fd9437fdd726197f44bd72ff8b/testbench/traffic_fsm.sv) is a self-checking testbench for `traffic_fsm` (Icarus Verilog 12, EDA Playground). It checks:
 
  - reset: red lamp on, counter at 40
  - full cycle with measured state durations (RED 41, YELLOW 8, GREEN 41 ticks)
