@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/20928206-9089-47d3-80a3-71c815475f70
 
  Features
 
-- 4-state FSM: RED (41 s) → YELLOW (7 s) → GREEN (41 s) → YELLOW (7 s) → RED
+- 4-state FSM: RED → YELLOW → GREEN → YELLOW → RED. The display counts 40 → 0 in red and green (41 s) and 7 → 0 in yellow (8 s)
 - Countdown of the remaining seconds on two independent 7-segment displays (common anode)
 - `btn_next` skips to the next state manually, `btn_rst` resets the FSM
 - Button conditioning: 2-FF synchronizer, debounce (10 ms) and rising-edge detector
