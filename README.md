@@ -55,3 +55,16 @@ Buttons are active-low: one side goes to GND and the pin uses the internal weak 
 2. Compile the project (Processing → Start Compilation)
 3. Program the board through USB-Blaster (Tools → Programmer)
 4. Press the reset button once after power-up
+
+ Verification
+
+ `testbench/traffic_fsm.sv` is a self-checking testbench for `traffic_fsm` (Icarus Verilog 12, EDA Playground). It checks:
+
+ - reset: red lamp on, counter at 40
+ - full cycle with measured state durations (RED 41, YELLOW 8, GREEN 41 ticks)
+ - `btn_next` forcing a transition in every state
+ - reset in the middle of a countdown
+
+ All checks pass (`ALL TESTS PASSED`).
+
+ ![Simulation waveform](Simulation waveform.png)
